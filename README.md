@@ -14,7 +14,7 @@ O projeto chamado Cardápio Online contém uma página index com os tipos de com
 
 O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se quer buscar na loja ou delivery, o pedido é enviado pra o whatsapp da loja e logo é confirmado no próprio site.
 
-O menu de escolha da comida foi feito em uma barra de rolagem para que o usário tenha a visualização de todas as opções, o site tem uma função de aberto ou fechado referente as informações no final da página.
+O menu de escolha da comida foi feito em uma barra de rolagem para que o usário tenha a visualização de todas as opções, o site tem uma função de aberto ou fechado referente as informações sobre os horários de funcionamento no final da página.
 
 Coloquei um modo de claro ou escuro para ajudar na visualização, melhorar o designer e agradar a todos os usuários.
 
