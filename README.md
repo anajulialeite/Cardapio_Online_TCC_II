@@ -4,7 +4,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" align="left" width="50" height="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" align="left" width="50" height="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" align="left" width="50" height="50"/>
-<img src="Logo/Logo/Gemini_Generated_Image_49hozq49hozq49ho-removebg-preview.jpg" alt="Logo" align="center" width="50" height="50">
+<img src="Logo/Gemini_Generated_Image_49hozq49hozq49ho-removebg-preview.jpg" alt="Logo" align="center" width="50" height="50">
 
 Este é o meu projeto de TCC Cardápio Online, aqui vai conter o meu trabalho teórico de TCC 1 e o Projeto na prática, finalizado e testado para o TCC 2.
 
