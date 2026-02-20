@@ -12,7 +12,7 @@ Este é o meu projeto de TCC Cardápio Online, aqui vai conter o meu trabalho te
 
 O projeto chamado Cardápio Online contém uma página index com os tipos de comidas e as informções sobre o restaurante, carrinho, finalizar pedido e pedido envido.
 
-O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se quer buscar na loja ou delivery, o pedido é enviado pra o whatsapp da loja e logo é confirmado no próprio site.
+O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se quer buscar no restaurante ou delivery, o pedido é enviado para o whatsapp do administrador da cozinha e logo é confirmado no próprio site.
 
 O menu de escolha da comida foi feito em uma barra de rolagem para que o usário tenha a visualização de todas as opções, o site tem uma função de aberto ou fechado referente as informações sobre os horários de funcionamento no final da página.
 
@@ -22,7 +22,7 @@ O site também contém um barra de buscar para facilitar o usuário na hora de m
 
 Menu online é totalmente interativo, qualquer forma incorreta de fazer o pedido vai subir uma plaquinha preta com o aviso de erro, assim facilita o usuário a ter uma facilidade maior de acesso e compreensão. 
 
-A logo do cardápio e o favicon, Menu Online, foi feita por mim través do Gemini, uma criação minha que não precisou de licensa para o uso. Todos os emojis eu utilizei através do site Emojipedia.
+A logo do cardápio e o favicon, foi feita por mim través do Gemini, uma criação minha que não precisou de licensa para o uso. Todos os emojis eu utilizei através do site Emojipedia.
 
 ## Tecnologias Utilizdas
 
@@ -32,7 +32,7 @@ A logo do cardápio e o favicon, Menu Online, foi feita por mim través do Gemin
   
 ## Instruções pra executar
 
-Basta entrar no link do Menu Online em Links Úteis, aqui no Readme e fazer o teste, todos os pedidos serão visualizados por mim.
+Basta entrar no link do Menu Online em Links Úteis, aqui no Readme ou no GitHub Pages, no link da lateral do repositório e fazer o teste, todos os pedidos serão visualizados por mim.
 
 OBS: O pedido mínimo exigido é no valor de dez reais (R$ 10,00).
 
