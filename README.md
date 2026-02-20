@@ -32,6 +32,8 @@ A logo do cardápio e o favicon, Menu Online, foi feita por mim través do Gemin
 
 Basta entrar no link do GitHub Pages e fazer o teste, todos os pedidos serão visualizados por mim.
 
+OBS: O pedido mínimo exigido é no valor de dez reais (R$ 10,00).
+
 ## Demonstração
 
 <img src="Logo/Index.png" alt="Index" align="center" width="300" height="300">
