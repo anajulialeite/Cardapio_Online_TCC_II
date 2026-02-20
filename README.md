@@ -10,15 +10,15 @@ Este é o meu projeto de TCC Cardápio Online, aqui vai conter o meu trabalho te
 
 ## Projeto Cardápio Online
 
-O projeto chamado Cardápio Online contém uma página index com os tipos de comidas e as informções sobre o restaurante, carrinho, finalizr pedido, pedido envido.
+O projeto chamado Cardápio Online contém uma página index com os tipos de comidas e as informções sobre o restaurante, carrinho, finalizar pedido, pedido envido.
 
-O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se busca na loja ou delivery, o pedido é enviado pra o whatsapp da loja e logo é confirmado no próprio site.
+O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se quer buscar na loja ou delivery, o pedido é enviado pra o whatsapp da loja e logo é confirmado no próprio site.
 
-O menu de escolha da comida foi feito em uma barra de rolagem para que o usário tenha a visualização de todas as opções, o site tem uma função de aberto ou fechado que bate com as informações sobre o restaurante no final da página.
+O menu de escolha da comida foi feito em uma barra de rolagem para que o usário tenha a visualização de todas as opções, o site tem uma função de aberto ou fechado referente as informações no final da página.
 
 Coloquei um modo de claro ou escuro para ajudar na visualização, melhorar o designer e agradar a todos os usuários.
 
-O site também contém um barra de buscar para facilitar o usuário na hora de montar o seu pedido, no canto inferior esquerdo coloquei um balão indicndo o whatsapp da loja para facilitar o usuário na hora de tirar alguma dúvida, facilitando o seu contato com o restaurante.
+O site também contém um barra de buscar para facilitar o usuário na hora de montar o seu pedido. No canto inferior esquerdo, coloquei um balão indicando o whatsapp para facilitar o usuário na hora de tirar alguma dúvida, facilitando o seu contato com o restaurante.
 
 A logo do cardápio, Menu Online, foi feita por mim través do Chat GPT, uma criação minha que não precisou de licensa para o uso. A imagem do favicon foi feita através do Gemini, também de minha autoria, todos os emojis eu utilizei através do site Emojipedia.
 
