@@ -32,7 +32,7 @@ A logo do cardápio e o favicon, Menu Online, foi feita por mim través do Gemin
   
 ## Instruções pra executar
 
-Basta entrar no link do GitHub Pages e fazer o teste, todos os pedidos serão visualizados por mim.
+Basta entrar no link do Menu Online em Links Úteis, aqui no Readme e fazer o teste, todos os pedidos serão visualizados por mim.
 
 OBS: O pedido mínimo exigido é no valor de dez reais (R$ 10,00).
 
