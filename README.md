@@ -10,7 +10,7 @@ Este é o meu projeto de TCC Cardápio Online, aqui vai conter o meu trabalho te
 
 ## Projeto Cardápio Online
 
-O projeto chamado Cardápio Online contém uma página index com os tipos de comidas e as informções sobre o restaurante, carrinho, finalizar pedido, pedido envido.
+O projeto chamado Cardápio Online contém uma página index com os tipos de comidas e as informções sobre o restaurante, carrinho, finalizar pedido e pedido envido.
 
 O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se quer buscar na loja ou delivery, o pedido é enviado pra o whatsapp da loja e logo é confirmado no próprio site.
 
