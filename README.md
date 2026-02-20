@@ -28,7 +28,7 @@ A logo do cardápio, Menu Online, foi feita por mim través do Chat GPT, uma cri
 - CSS 3
 - JavaScript
   
-## Instrições pra executar
+## Instruções pra executar
 
 Basta entrar no link do GitHub Pages e fazer o teste, todos os pedidos serão visualizados por mim. Te envio o print do pedido, para mostrar o site funcionando.
 
