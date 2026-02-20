@@ -41,6 +41,10 @@ Basta entrar no link do GitHub Pages e fazer o teste, todos os pedidos serão vi
 - [Emojipedia](https://emojipedia.org/)
 - [Cardápio Online](***)
 
+## Observação
+
+De acordo com a LGPD, todos os usuário que testar o site terão seus dados protegidos e não serão utilizados de má fé. Uso exclusivo somente para mostrar ao próprio usuário através de print de que o site funciona.
+
 ## Autora
 
 Ana Júlia de Lima Aguiar Leite
