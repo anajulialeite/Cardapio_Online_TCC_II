@@ -43,7 +43,10 @@ OBS: O pedido mínimo exigido é no valor de dez reais (R$ 10,00).
 ## Links Úteis
 
 - [Emojipedia](https://emojipedia.org/)
-- [Cardápio Online](***)
+
+<a href="#" style="text-decoration:none" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/static/v1?label=Menu&message=Online&color=d4a530&labelColor=000000&style=for-the-badge" alt="Menu Online"/>
+</a>
 
 ## Observação
 
