@@ -35,6 +35,11 @@ Basta entrar no link do GitHub Pages e fazer o teste, todos os pedidos serão vi
 
 
 
+## Links úteis
+
+- [Emojipedia](https://emojipedia.org/)
+- [Cardápio Online](***)
+
 ## Autora
 
 Ana Júlia de Lima Aguiar Leite
