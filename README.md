@@ -32,6 +32,10 @@ Basta acessar o link do Menu Online, disponível na seção “Links Úteis” d
 
 Observação: O valor mínimo exigido para realização do pedido é de dez reais (R$ 10,00).
 
+## Observação
+
+Em conformidade com a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018), todos os usuários que testarem o site terão seus dados protegidos e tratados com responsabilidade. As informações fornecidas não serão utilizadas de má-fé nem compartilhadas com terceiros. Os dados coletados destinam-se exclusivamente à demonstração do funcionamento do sistema, podendo ser utilizados apenas para comprovação, por meio de captura de tela (print), de que o site está operando corretamente.
+
 ## Demonstração
 
 <img src="Logo/Index.png" alt="Index" align="center" width="300" height="300">
@@ -43,10 +47,6 @@ Observação: O valor mínimo exigido para realização do pedido é de dez reai
 <a href="#" style="text-decoration:none" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?label=Menu&message=Online&color=d4a530&labelColor=000000&style=for-the-badge" alt="Menu Online"/>
 </a>
-
-## Observação
-
-Em conformidade com a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018), todos os usuários que testarem o site terão seus dados protegidos e tratados com responsabilidade. As informações fornecidas não serão utilizadas de má-fé nem compartilhadas com terceiros. Os dados coletados destinam-se exclusivamente à demonstração do funcionamento do sistema, podendo ser utilizados apenas para comprovação, por meio de captura de tela (print), de que o site está operando corretamente.
 
 ## Autora
 
