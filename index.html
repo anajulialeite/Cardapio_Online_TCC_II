@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Online - Pedido Online</title>
+  <meta name="description"
+    content="Faça seu pedido Online agora no Menu Online e receba seu pedido no conforto de sua casa.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="header__logo">
+      <img src="logo.png" alt="Menu Online" class="header__logo-img">
+      <div class="header__logo-text">Menu <span>Online</span></div>
+    </div>
+    <div class="header__search">
+      <span class="header__search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Buscar no cardápio..." autocomplete="off">
+    </div>
+    <div class="header__actions">
+      <button class="header__theme-btn" id="themeToggle" onclick="toggleTheme()" title="Alternar modo escuro/claro">
+        <span id="themeIcon">🌙</span>
+      </button>
+      <button class="header__cart-btn" id="openCartBtn" onclick="toggleCart()">
+        🛒 <span class="cart-text">Carrinho</span>
+        <span class="header__cart-badge empty" id="cartBadge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__particles" id="particles"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">Menu <span>Online</span></h1>
+      <p class="hero__subtitle">Faça seu pedido online e receba no conforto de sua casa</p>
+    </div>
+  </section>
+
+  <!-- ========== INFO BAR ========== -->
+  <div class="info-bar" id="infoBar">
+    <span class="info-bar__badge" id="statusBadge">Verificando...</span>
+    <div class="info-bar__item">
+      <span class="icon">📍</span>
+      <span id="storeAddress"></span>
+    </div>
+    <div class="info-bar__item">
+      <span class="icon">📞</span>
+      <span id="storePhone"></span>
+    </div>
+    <div class="info-bar__item">
+      <span class="icon">💰</span>
+      <span>Pedido mín: R$ <span id="minOrder">0</span>,00</span>
+    </div>
+  </div>
+
+  <!-- ========== CATEGORIES NAV ========== -->
+  <div class="categories-wrapper">
+    <nav class="categories-nav" id="categoriesNav"></nav>
+  </div>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="main-content" id="mainContent">
+    <!-- Search results banner (hidden by default) -->
+    <div class="search-results-banner" id="searchBanner" style="display:none;">
+      <span class="search-results-banner__text" id="searchBannerText"></span>
+      <button class="search-results-banner__clear" onclick="clearSearch()">Limpar busca</button>
+    </div>
+    <!-- Products rendered via JS -->
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer"></footer>
+
+  <!-- ========== WHATSAPP FAB ========== -->
+  <a class="whatsapp-fab" href="https://wa.me/556196773513" target="_blank" title="WhatsApp">💬</a>
+
+  <!-- ========== PRODUCT MODAL ========== -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal">
+      <div class="modal__header">
+        <div class="modal__drag-handle"></div>
+        <button class="modal__close" onclick="closeProductModal()">✕</button>
+        <h2 class="modal__title" id="modalTitle"></h2>
+        <p class="modal__desc" id="modalDesc"></p>
+        <div class="modal__price" id="modalPrice"></div>
+      </div>
+      <div class="modal__body" id="modalBody"></div>
+      <div class="modal__footer">
+        <div class="qty-selector">
+          <button onclick="changeModalQty(-1)">−</button>
+          <span class="qty-selector__value" id="modalQty">1</span>
+          <button onclick="changeModalQty(1)">+</button>
+        </div>
+        <button class="modal__add-btn" id="modalAddBtn" onclick="addToCartFromModal()">
+          <span>Adicionar</span>
+          <span id="modalTotalPrice">R$ 0,00</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== PIZZA MODAL ========== -->
+  <div class="modal-overlay" id="pizzaModal">
+    <div class="modal">
+      <div class="modal__header">
+        <div class="modal__drag-handle"></div>
+        <button class="modal__close" onclick="closePizzaModal()">✕</button>
+        <h2 class="modal__title">🍕 Monte sua Pizza</h2>
+        <p class="modal__desc">Escolha o tamanho, sabores e borda</p>
+      </div>
+      <div class="modal__body" id="pizzaModalBody"></div>
+      <div class="modal__footer">
+        <div class="qty-selector">
+          <button onclick="changePizzaQty(-1)">−</button>
+          <span class="qty-selector__value" id="pizzaQty">1</span>
+          <button onclick="changePizzaQty(1)">+</button>
+        </div>
+        <button class="modal__add-btn" id="pizzaAddBtn" onclick="addPizzaToCart()">
+          <span>Adicionar Pizza</span>
+          <span id="pizzaTotalPrice">R$ 0,00</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CART SIDEBAR ========== -->
+  <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart__header">
+      <div class="cart__header-title">🛒 Seu Pedido</div>
+      <button class="cart__close" onclick="toggleCart()">✕</button>
+    </div>
+    <div class="cart__items" id="cartItems"></div>
+    <div class="cart__footer" id="cartFooter" style="display:none;">
+      <div class="cart__total">
+        <span class="cart__total-label">Total</span>
+        <span class="cart__total-value" id="cartTotal">R$ 0,00</span>
+      </div>
+      <button class="cart__checkout-btn" onclick="openCheckout()">
+        ✅ Finalizar Pedido
+      </button>
+      <p class="cart__min-order">Pedido mínimo: R$ <span id="cartMinOrder">10</span>,00</p>
+    </div>
+  </aside>
+
+  <!-- ========== CHECKOUT MODAL ========== -->
+  <div class="checkout-overlay" id="checkoutOverlay">
+    <div class="checkout" id="checkoutContent"></div>
+  </div>
+
+  <!-- ========== TOAST ========== -->
+  <div class="toast" id="toast">
+    <span class="toast__icon">✅</span>
+    <span class="toast__text" id="toastText">Item adicionado!</span>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
