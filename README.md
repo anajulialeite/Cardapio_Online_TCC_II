@@ -1,4 +1,4 @@
-# Cardápio Online TCC2
+# Cardápio Online TCC II
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" align="left" width="50" height="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" align="left" width="50" height="50"/>
@@ -6,44 +6,47 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" align="left" width="50" height="50"/>
 <img src="Logo/Gemini_Generated_Image_49hozq49hozq49ho-removebg-preview.png" alt="Logo" align="center" width="50" height="50">
 
-Este é o meu projeto de TCC Cardápio Online, aqui vai conter o meu trabalho teórico de TCC 1 e o Projeto na prática, finalizado e testado para o TCC 2.
+Este repositório refere-se ao projeto de Trabalho de Conclusão de Curso (TCC) intitulado Cardápio Online. Nele estão disponíveis tanto o desenvolvimento teórico elaborado na disciplina de TCC I quanto a aplicação prática do projeto, finalizada, implementada e testada para a etapa de TCC II.
 
 ## Projeto Cardápio Online
 
-O projeto chamado Cardápio Online contém uma página index com os tipos de comidas e as informções sobre o restaurante, carrinho, finalizar pedido, pedido envido.
+O projeto Cardápio Online consiste em um site desenvolvido com o objetivo de facilitar a realização de pedidos em restaurantes de maneira prática, organizada e intuitiva. A aplicação possui uma página inicial (index), na qual são apresentados os tipos de comidas disponíveis e as informações institucionais sobre o restaurante. O sistema também conta com as funcionalidades de carrinho de compras, finalização de pedido e confirmação de envio.
 
-O objetivo do site é você fazer o pedido, fazer o seu cadastro com seus dados pessoais, escolher a forma de pagamento, você escolhe se quer buscar na loja ou delivery, o pedido é enviado pra o whatsapp da loja e logo é confirmado no próprio site.
+O principal objetivo do site é permitir que o usuário realize seu pedido de forma simples, efetue cadastro com seus dados pessoais, escolha a forma de pagamento e selecione entre retirada no local ou entrega (delivery). Após a finalização, o pedido é automaticamente enviado para o WhatsApp do administrador da cozinha e confirmado no próprio site.
 
-O menu de escolha da comida foi feito em uma barra de rolagem para que o usário tenha a visualização de todas as opções, o site tem uma função de aberto ou fechado referente as informações no final da página.
+O menu de seleção dos alimentos foi estruturado com barra de rolagem, possibilitando ao usuário a visualização completa das opções disponíveis. O site também apresenta um indicador de status informando se o restaurante está aberto ou fechado, com base nos horários de funcionamento exibidos ao final da página. Além disso, foi implementado o modo claro e o modo escuro, com o intuito de melhorar a visualização, aprimorar o design e atender às preferências dos usuários.
 
-Coloquei um modo de claro ou escuro para ajudar na visualização, melhorar o designer e agradar a todos os usuários.
+A plataforma dispõe ainda de uma barra de busca para facilitar a localização dos itens durante a montagem do pedido. No canto inferior esquerdo, foi inserido um ícone flutuante do WhatsApp, permitindo que o usuário entre em contato diretamente com o restaurante para esclarecimento de dúvidas.
 
-O site também contém um barra de buscar para facilitar o usuário na hora de montar o seu pedido. No canto inferior esquerdo, coloquei um balão indicando o whatsapp para facilitar o usuário na hora de tirar alguma dúvida, facilitando o seu contato com o restaurante.
+O menu online é totalmente interativo. Caso o usuário cometa algum erro durante o processo de pedido, uma notificação é exibida na tela com aviso informativo, auxiliando na correção e garantindo melhor experiência de uso.
 
-A logo do cardápio, Menu Online, foi feita por mim través do Chat GPT, uma criação minha que não precisou de licensa para o uso. A imagem do favicon foi feita através do Gemini, também de minha autoria, todos os emojis eu utilizei através do site Emojipedia.
+A logomarca do cardápio e o favicon foram desenvolvidos por mim com o auxílio do Gemini, tratando-se de uma criação original que não requer licença para utilização. Os emojis utilizados no projeto foram obtidos por meio do site Emojipedia.
 
 ## Tecnologias Utilizdas
 
-- HTML 5
-- CSS 3
-- JavaScript
+O projeto foi desenvolvido utilizando as tecnologias <strong>HTML5, CSS3 e JavaScript</strong>, responsáveis, respectivamente, pela estruturação, estilização e implementação das funcionalidades interativas da aplicação.
   
 ## Instruções pra executar
 
-Basta entrar no link do GitHub Pages e fazer o teste, todos os pedidos serão visualizados por mim. Te envio o print do pedido, para mostrar o site funcionando.
+Basta acessar o link do Menu Online, disponível na seção “Links Úteis” deste README ou no GitHub Pages, localizado na lateral do repositório, para realizar um teste. Todos os pedidos efetuados serão visualizados por mim.
+
+Observação: O valor mínimo exigido para realização do pedido é de dez reais (R$ 10,00).
+
+## Observação
+
+Em conformidade com a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018), todos os usuários que testarem o site terão seus dados protegidos e tratados com responsabilidade. As informações fornecidas não serão utilizadas de má-fé nem compartilhadas com terceiros. Os dados coletados destinam-se exclusivamente à demonstração do funcionamento do sistema, podendo ser utilizados apenas para comprovação, por meio de captura de tela (print), de que o site está operando corretamente.
 
 ## Demonstração
 
-
+<img src="Logo/Index.png" alt="Index" align="center" width="300" height="300">
 
 ## Links Úteis
 
 - [Emojipedia](https://emojipedia.org/)
-- [Cardápio Online](***)
 
-## Observação
-
-De acordo com a LGPD, todos os usuário que testar o site terão seus dados protegidos e não serão utilizados de má fé. Uso exclusivo somente para mostrar ao próprio usuário através de print de que o site funciona.
+<a href="#" style="text-decoration:none" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/static/v1?label=Menu&message=Online&color=d4a530&labelColor=000000&style=for-the-badge" alt="Menu Online"/>
+</a>
 
 ## Autora
 
