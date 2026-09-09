@@ -119,6 +119,7 @@ function createParticles() {
 // Navegação de categorias
 function renderCategoriesNav() {
   const nav = document.getElementById('categoriesNav');
+  nav.innerHTML = '';
 
   // PIZZA
   const pizzaChip = document.createElement('button');
