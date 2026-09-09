@@ -246,7 +246,14 @@ let CATEGORIES = [
       { id: "pm11", name: "Pão francês com carne de panela", desc: null, price: 15.90, available: true, tag: "Novidade", image: "images/products/pao_carne_panela.webp" },
       { id: "pm12", name: "Queijo Quente com Ovo", desc: null, price: 11.90, available: true, image: "images/products/queijo_quente_ovo.webp" },
     ],
-    extras: [{ name: "Ketchup", price: 0.10 }, { name: "Maionese", price: 0.10 }, { name: "Salada", price: 3.00 }]
+    extras: [
+      { name: "Manteiga", price: 2.00 },
+      { name: "Ovo", price: 3.00 },
+      { name: "Queijo", price: 3.00 },
+      { name: "Orégano", price: 1.50 },
+      { name: "Presunto", price: 3.00 },
+      { name: "Bacon", price: 3.00 }
+    ]
   },
   {
     id: "bolos",
