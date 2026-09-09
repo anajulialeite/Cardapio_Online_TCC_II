@@ -181,12 +181,12 @@ let CATEGORIES = [
       { id: "c2", name: "Cuscuz Queijo Coalho com Ovo", desc: null, price: 19.90, available: true, image: "images/products/cuscuz_coalho_ovo.webp" },
       { id: "c3", name: "Cuscuz Muçarela", desc: null, price: 19.90, available: true, image: "images/products/cuscuz_mucarela.webp" },
       { id: "c4", name: "Cuscuz Muçarela com Ovo", desc: null, price: 19.90, available: true, image: "images/products/cuscuz_ovo.webp" },
-      { id: "c5", name: "Pamonha Sal", desc: null, price: 9.00, available: true, image: "images/products/pamonha.webp" },
+      { id: "c5", name: "Pamonha Sal", desc: null, price: 9.00, available: true, image: "images/products/pamonha.webp", extras: [] },
       { id: "c6", name: "Cuscuz Carne Seca com Muçarela", desc: null, price: 22.90, available: true, image: "images/products/cuscuz_carne_seca_mucarela.webp" },
       { id: "c7", name: "Cuscuz Calabresa, bacon e muçarela", desc: null, price: 22.90, available: true, image: "images/products/cuscuz_calabresa.webp" },
-      { id: "c8", name: "Pamonha Doce", desc: null, price: 9.00, available: false },
+      { id: "c8", name: "Pamonha Doce", desc: null, price: 9.00, available: false, extras: [] },
     ],
-    extras: [{ name: "Maionese", price: 0.10 }]
+    extras: [{ name: "Queijo", price: 3.00 }]
   },
   {
     id: "panquecas",
