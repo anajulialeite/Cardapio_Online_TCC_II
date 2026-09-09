@@ -89,7 +89,7 @@ let CATEGORIES = [
       { id: "p32", name: "Ceviche de Salmão (Porção)", desc: "Acompanha chips de batata", price: 41.9, available: false },
       { id: "p33", name: "Tataki de Salmão", desc: null, price: 34.9, available: true, image: "images/products/tataki_salmao.webp" },
     ],
-    extras: [{ name: "Molho Teriyaki", price: 2.00 }, { name: "Molho Shoyu", price: 1.00 }]
+    extras: [{ name: "Molho Teriyaki", price: 2.00 }, { name: "Molho Shoyu", price: 1.00 }, { name: "Gengibre", price: 2.00 }]
   },
   {
     id: "massas",
